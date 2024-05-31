@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import one from '../Components/Images/alarm1.PNG'
-import netflix from '../Components/Images/netflix-web.PNG'
+import netflix from '../Components/Images/netflix-web.png'
 import alarm from '../Components/Images/Alarm.png'
 import whatsapp from '../Components/Images/whatsapp-phone.png'
 import capture from '../assets/phoneFrame.png'
