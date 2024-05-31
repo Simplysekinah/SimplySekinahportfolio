@@ -5,6 +5,7 @@ import Main from './Components/Main'
 import About from './Components/About'
 import Project from './Components/Project'
 import Contacts from './Components/Contacts'
+import Allwork from './Components/Allwork'
 function App() {
 
   return (
@@ -15,9 +16,6 @@ function App() {
         <About/>
         <Project/>
         <Contacts/>
-        <Routes>
-          <Route />
-        </Routes>
       </div>
     </>
   )
