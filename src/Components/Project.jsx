@@ -1,8 +1,13 @@
 import React, { useState, useEffect } from 'react'
 // import one from '../Components/Images/alarm1.PNG'
-import netflix from '../Components/Images/netflix-web.png'
-import alarm from '../Components/Images/alarm.png'
-import whatsapp from '../Components/Images/whatsapp-phone.png'
+import netflix from '../Components/Images/Macbook-Air.png'
+import alarm from '../Components/Images/AlarmMacbook-Air.png'
+import whatsapp from '../Components/Images/phoneMacbook-Air.png'
+import website from '../Components/Images/sqiwebsiteMacbook-Air.png'
+import twitter from '../Components/Images/TwitterMacbook-Air.png'
+import calculator from '../Components/Images/calculatorMacbook-Air.png'
+import landwey from '../Components/Images/landwebMacbook-Air.png'
+import tailwinds from '../Components/Images/tailwindMacbook-Air.png'
 import capture from '../assets/phoneFrame.png'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -33,18 +38,18 @@ const Project = () => {
                 return (
                     <div className='w-full grid grid-cols-1 md:grid-cols-2  gap-10 items-center justify-center' >
                         <div className='max-w-[100%] relative group' >
-                            <img className='h-[400px] w-[100%] rounded-lg' src={netflix} alt="netflix" data-aos="float-left" />
+                            <img className='h-[300px] w-[100%] rounded-lg' src={netflix} alt="netflix" data-aos="float-left" />
                             <div className='absolute  gap-4 text-center items-center justify-center top-0 bg-[rgba(0,0,0,0.4)] w-full h-full hidden group-hover:flex'>
                                 <button className='bg-gradient-to-r from-[#09090b] to-[#fac271] rounded-md shadow-md hover:from-[#fac271] hover:to-[#09090b] hover:shadow-lg w-[100px] h-[40px] text-center text-white py-2 px-4 font-semibold'>
-                                    <a href="https://simplysekinah-alarm.vercel.app/">View</a>
+                                    <a href="https://simplysekinahnetflix.surge.sh/">View</a>
                                 </button>
                                 <button className=' border-4 border-[#fac271] rounded-md px-4 py-2 text-white shadow-md font-semibold w-[100px] h-[40px] text-center bg-[#09090b]'>
-                                    <a href="https://github.com/Simplysekinah/Alarm-timmer">Git</a>
+                                    <a href="https://github.com/Simplysekinah/simplysekinah-netflix">Git</a>
                                 </button>
                             </div>
                         </div>
                         <div className='w-[100%] relative group' data-aos="float-right">
-                            <img className='w-[100%] h-[400px] rounded-lg' src={alarm} alt="netflix" />
+                            <img className='w-[100%] h-[300px] rounded-lg' src={alarm} alt="netflix" />
                             <div className='absolute  gap-4 text-center items-center justify-center top-0 bg-[rgba(0,0,0,0.4)] w-full h-full hidden group-hover:flex'>
                                 <button className='bg-gradient-to-r from-[#09090b] to-[#fac271] rounded-md shadow-md hover:from-[#fac271] hover:to-[#09090b] hover:shadow-lg w-[100px] h-[40px] text-center text-white py-2 px-4 font-semibold'>
                                     <a href="https://simplysekinah-alarm.vercel.app/">View</a>
@@ -55,24 +60,24 @@ const Project = () => {
                             </div>
                         </div>
                         <div className='w-[100%] relative group' data-aos="float-left">
-                            <img className='w-[100%] h-[400px] rounded-lg' src={whatsapp} alt="netflix" />
+                            <img className='w-[100%] h-[300px] rounded-lg' src={whatsapp} alt="netflix" />
                             <div className='absolute  gap-4 text-center items-center justify-center top-0 bg-[rgba(0,0,0,0.4)] w-full h-full hidden group-hover:flex'>
                                 <button className='bg-gradient-to-r from-[#09090b] to-[#fac271] rounded-md shadow-md hover:from-[#fac271] hover:to-[#09090b] hover:shadow-lg w-[100px] h-[40px] text-center text-white py-2 px-4 font-semibold'>
-                                    <a href="https://simplysekinah-alarm.vercel.app/">View</a>
+                                    <a href="https://simplysekinah-whatsapp.surge.sh/">View</a>
                                 </button>
                                 <button className=' border-4 border-[#fac271] rounded-md px-4 py-2 text-white shadow-md font-semibold w-[100px] h-[40px] text-center bg-[#09090b]'>
-                                    <a href="https://github.com/Simplysekinah/Alarm-timmer">Git</a>
+                                    <a href="https://github.com/Simplysekinah/whatsapp-phone">Git</a>
                                 </button>
                             </div>
                         </div>
                         <div className='w-[100%] h-[250px] relative group bg-black flex items-center justify-center flex-col' data-aos="float-left">
-                            <img className='w-[100%] h-[400px] rounded-lg transform' src={capture} alt="netflix" />
+                            <img className='w-[100%] h-[300px] rounded-lg transform' src={website} alt="netflix" />
                             <div className='absolute  gap-4 text-center items-center justify-center top-0 bg-[rgba(0,0,0,0.4)] w-full h-full hidden group-hover:flex'>
                                 <button className='bg-gradient-to-r from-[#09090b] to-[#fac271] rounded-md shadow-md hover:from-[#fac271] hover:to-[#09090b] hover:shadow-lg w-[100px] h-[40px] text-center text-white py-2 px-4 font-semibold'>
-                                    <a href="https://simplysekinah-alarm.vercel.app/">View</a>
+                                    <a href="http://simplysekinah-sqi.surge.sh/">View</a>
                                 </button>
                                 <button className=' border-4 border-[#fac271] rounded-md px-4 py-2 text-white shadow-md font-semibold w-[100px] h-[40px] text-center bg-[#09090b]'>
-                                    <a href="https://github.com/Simplysekinah/Alarm-timmer">Git</a>
+                                    <a href="https://github.com/Simplysekinah/SQI-website">Git</a>
                                 </button>
                             </div>
                         </div>
@@ -82,46 +87,46 @@ const Project = () => {
                 return (
                     <div className='w-full grid grid-cols-1 md:grid-cols-2  gap-10 items-center justify-center' >
                         <div className='w-[100%] relative group' data-aos="float-left">
-                            <img className=' w-[100%] h-[400px] rounded-lg' src={netflix} alt="netflix" />
+                            <img className=' w-[100%] h-[300px] rounded-lg' src={twitter} alt="netflix" />
                             <div className='absolute  gap-4 text-center items-center justify-center top-0 bg-[rgba(0,0,0,0.4)] w-full h-full hidden group-hover:flex'>
                                 <button className='bg-gradient-to-r from-[#09090b] to-[#fac271] rounded-md shadow-md hover:from-[#fac271] hover:to-[#09090b] hover:shadow-lg w-[100px] h-[40px] text-center text-white py-2 px-4 font-semibold'>
-                                    <a href="https://simplysekinah-alarm.vercel.app/">View</a>
+                                    <a href="https://sekinat123.netlify.app/">View</a>
                                 </button>
                                 <button className=' border-4 border-[#fac271] rounded-md px-4 py-2 text-white shadow-md font-semibold w-[100px] h-[40px] text-center bg-[#09090b]'>
-                                    <a href="https://github.com/Simplysekinah/Alarm-timmer">Git</a>
+                                    <a href="https://github.com/Simplysekinah/Twitter-project-">Git</a>
                                 </button>
                             </div>
                         </div>
                         <div className='w-[100%] relative group' data-aos="float-right">
-                            <img className='w-[100%] h-[400px] rounded-lg' src={alarm} alt="netflix" />
+                            <img className='w-[100%] h-[300px] rounded-lg' src={calculator} alt="netflix" />
                             <div className='absolute  gap-4 text-center items-center justify-center top-0 bg-[rgba(0,0,0,0.4)] w-full h-full hidden group-hover:flex'>
                                 <button className='bg-gradient-to-r from-[#09090b] to-[#fac271] rounded-md shadow-md hover:from-[#fac271] hover:to-[#09090b] hover:shadow-lg w-[100px] h-[40px] text-center text-white py-2 px-4 font-semibold'>
-                                    <a href="https://simplysekinah-alarm.vercel.app/">View</a>
+                                    <a href="https://simplysekinahcalculator.vercel.app/">View</a>
                                 </button>
                                 <button className=' border-4 border-[#fac271] rounded-md px-4 py-2 text-white shadow-md font-semibold w-[100px] h-[40px] text-center bg-[#09090b]'>
-                                    <a href="https://github.com/Simplysekinah/Alarm-timmer">Git</a>
+                                    <a href="https://github.com/Simplysekinah/simplysekinahcalculator">Git</a>
                                 </button>
                             </div>
                         </div>
                         <div className='w-[100%] relative group' data-aos="float-left">
-                            <img className='w-[100%] h-[400px] rounded-lg' src={whatsapp} alt="netflix" />
+                            <img className='w-[100%] h-[300px] rounded-lg' src={landwey} alt="netflix" />
                             <div className='absolute  gap-4 text-center items-center justify-center top-0 bg-[rgba(0,0,0,0.4)] w-full h-full hidden group-hover:flex'>
                                 <button className='bg-gradient-to-r from-[#09090b] to-[#fac271] rounded-md shadow-md hover:from-[#fac271] hover:to-[#09090b] hover:shadow-lg w-[100px] h-[40px] text-center text-white py-2 px-4 font-semibold'>
-                                    <a href="https://simplysekinah-alarm.vercel.app/">View</a>
+                                    <a href="https://simplysekinahlandwey.vercel.app/">View</a>
                                 </button>
                                 <button className=' border-4 border-[#fac271] rounded-md px-4 py-2 text-white shadow-md font-semibold w-[100px] h-[40px] text-center bg-[#09090b]'>
-                                    <a href="https://github.com/Simplysekinah/Alarm-timmer">Git</a>
+                                    <a href="https://github.com/Simplysekinah/landweywebsite">Git</a>
                                 </button>
                             </div>
                         </div>
-                        <div className='w-[100%] h-[400px] relative group bg-black flex items-center justify-center flex-col' data-aos="float-right">
-                            <img className='w-[100%] h-[400px] rounded-lg transform' src={capture} alt="netflix" />
+                        <div className='w-[100%] h-[300px] relative group bg-black flex items-center justify-center flex-col' data-aos="float-right">
+                            <img className='w-[100%] h-[300px] rounded-lg transform' src={tailwinds} alt="netflix" />
                             <div className='absolute  gap-4 text-center items-center justify-center top-0 bg-[rgba(0,0,0,0.4)] w-full h-full hidden group-hover:flex'>
                                 <button className='bg-gradient-to-r from-[#09090b] to-[#fac271] rounded-md shadow-md hover:from-[#fac271] hover:to-[#09090b] hover:shadow-lg w-[100px] h-[40px] text-center text-white py-2 px-4 font-semibold'>
-                                    <a href="https://simplysekinah-alarm.vercel.app/">View</a>
+                                    <a href="https://simplysekinah-tailwind.vercel.app/">View</a>
                                 </button>
                                 <button className=' border-4 border-[#fac271] rounded-md px-4 py-2 text-white shadow-md font-semibold w-[100px] h-[40px] text-center bg-[#09090b]'>
-                                    <a href="https://github.com/Simplysekinah/Alarm-timmer">Git</a>
+                                    <a href="https://github.com/Simplysekinah/React-tailwind-website">Git</a>
                                 </button>
                             </div>
                         </div>
@@ -131,7 +136,7 @@ const Project = () => {
                 return (
                     <div className='w-full grid grid-cols-1 md:grid-cols-2  gap-10 items-center justify-center' >
                         <div className='w-[100%] relative group' data-aos="float-left">
-                            <img className='w-[100%] h-[400px] rounded-lg' src={netflix} alt="netflix" />
+                            <img className='w-[100%] h-[300px] rounded-lg' src={netflix} alt="netflix" />
                             <div className='absolute  gap-4 text-center items-center justify-center top-0 bg-[rgba(0,0,0,0.4)] w-full h-full hidden group-hover:flex'>
                                 <button className='bg-gradient-to-r from-[#09090b] to-[#fac271] rounded-md shadow-md hover:from-[#fac271] hover:to-[#09090b] hover:shadow-lg w-[100px] h-[40px] text-center text-white py-2 px-4 font-semibold'>
                                     <a href="https://simplysekinah-alarm.vercel.app/">View</a>
@@ -142,7 +147,7 @@ const Project = () => {
                             </div>
                         </div>
                         <div className='w-[100%] relative group' data-aos="float-right">
-                            <img className='w-[100%] h-[400px] rounded-lg' src={alarm} alt="netflix" />
+                            <img className='w-[100%] h-[300px] rounded-lg' src={alarm} alt="netflix" />
                             <div className='absolute  gap-4 text-center items-center justify-center top-0 bg-[rgba(0,0,0,0.4)] w-full h-full hidden group-hover:flex'>
                                 <button className='bg-gradient-to-r from-[#09090b] to-[#fac271] rounded-md shadow-md hover:from-[#fac271] hover:to-[#09090b] hover:shadow-lg w-[100px] h-[40px] text-center text-white py-2 px-4 font-semibold'>
                                     <a href="https://simplysekinah-alarm.vercel.app/">View</a>
@@ -153,7 +158,7 @@ const Project = () => {
                             </div>
                         </div>
                         <div className='w-[100%] relative group' data-aos="float-left">
-                            <img className='w-[100%] h-[400px] rounded-lg' src={whatsapp} alt="netflix" />
+                            <img className='w-[100%] h-[300px] rounded-lg' src={whatsapp} alt="netflix" />
                             <div className='absolute  gap-4 text-center items-center justify-center top-0 bg-[rgba(0,0,0,0.4)] w-full h-full hidden group-hover:flex'>
                                 <button className='bg-gradient-to-r from-[#09090b] to-[#fac271] rounded-md shadow-md hover:from-[#fac271] hover:to-[#09090b] hover:shadow-lg w-[100px] h-[40px] text-center text-white py-2 px-4 font-semibold'>
                                     <a href="https://simplysekinah-alarm.vercel.app/">View</a>
@@ -164,7 +169,7 @@ const Project = () => {
                             </div>
                         </div>
                         <div className='w-[100%] relative group bg-black flex items-center justify-center flex-col' data-aos="float-right">
-                            <img className='w-[100%] h-[400px] rounded-lg transform' src={capture} alt="netflix" />
+                            <img className='w-[100%] h-[300px] rounded-lg transform' src={capture} alt="netflix" />
                             <div className='absolute  gap-4 text-center items-center justify-center top-0 bg-[rgba(0,0,0,0.4)] w-full h-full hidden group-hover:flex'>
                                 <button className='bg-gradient-to-r from-[#09090b] to-[#fac271] rounded-md shadow-md hover:from-[#fac271] hover:to-[#09090b] hover:shadow-lg w-[100px] h-[40px] text-center text-white py-2 px-4 font-semibold'>
                                     <a href="https://simplysekinah-alarm.vercel.app/">View</a>
@@ -180,7 +185,7 @@ const Project = () => {
                 return (
                     <div className='w-full grid grid-cols-1 md:grid-cols-2  gap-10 items-center justify-center' >
                         <div className='w-[100%] relative group' data-aos="float-left">
-                            <img className=' w-[100%] h-[400px] rounded-lg' src={netflix} alt="netflix" />
+                            <img className=' w-[100%] h-[300px] rounded-lg' src={netflix} alt="netflix" />
                             <div className='absolute  gap-4 text-center items-center justify-center top-0 bg-[rgba(0,0,0,0.4)] w-full h-full hidden group-hover:flex'>
                                 <button className='bg-gradient-to-r from-[#09090b] to-[#fac271] rounded-md shadow-md hover:from-[#fac271] hover:to-[#09090b] hover:shadow-lg w-[100px] h-[40px] text-center text-white py-2 px-4 font-semibold'>
                                     <a href="https://simplysekinah-alarm.vercel.app/">View</a>
@@ -191,7 +196,7 @@ const Project = () => {
                             </div>
                         </div>
                         <div className='w-[100%] relative group' data-aos="float-right">
-                            <img className='w-[100%] h-[400px] rounded-lg' src={alarm} alt="netflix" />
+                            <img className='w-[100%] h-[300px] rounded-lg' src={alarm} alt="netflix" />
                             <div className='absolute  gap-4 text-center items-center justify-center top-0 bg-[rgba(0,0,0,0.4)] w-full h-full hidden group-hover:flex'>
                                 <button className='bg-gradient-to-r from-[#09090b] to-[#fac271] rounded-md shadow-md hover:from-[#fac271] hover:to-[#09090b] hover:shadow-lg w-[100px] h-[40px] text-center text-white py-2 px-4 font-semibold'>
                                     <a href="https://simplysekinah-alarm.vercel.app/">View</a>
@@ -202,7 +207,7 @@ const Project = () => {
                             </div>
                         </div>
                         <div className='w-[100%] relative group' data-aos="float-left">
-                            <img className='w-[100%] h-[400px] rounded-lg' src={whatsapp} alt="netflix" />
+                            <img className='w-[100%] h-[300px] rounded-lg' src={whatsapp} alt="netflix" />
                             <div className='absolute  gap-4 text-center items-center justify-center top-0 bg-[rgba(0,0,0,0.4)] w-full h-full hidden group-hover:flex'>
                                 <button className='bg-gradient-to-r from-[#09090b] to-[#fac271] rounded-md shadow-md hover:from-[#fac271] hover:to-[#09090b] hover:shadow-lg w-[100px] h-[40px] text-center text-white py-2 px-4 font-semibold'>
                                     <a href="https://simplysekinah-alarm.vercel.app/">View</a>
@@ -213,7 +218,7 @@ const Project = () => {
                             </div>
                         </div>
                         <div className='w-[100%] relative group bg-black flex items-center justify-center flex-col' data-aos="float-right">
-                            <img className='w-[100%] h-[400px] transform' src={capture} alt="netflix" />
+                            <img className='w-[100%] h-[300px] transform' src={capture} alt="netflix" />
                             <div className='absolute  gap-4 text-center items-center justify-center top-0 bg-[rgba(0,0,0,0.4)] w-full h-full hidden group-hover:flex'>
                                 <button className='bg-gradient-to-r from-[#09090b] to-[#fac271] rounded-md shadow-md hover:from-[#fac271] hover:to-[#09090b] hover:shadow-lg w-[100px] h-[40px] text-center text-white py-2 px-4 font-semibold'>
                                     <a href="https://simplysekinah-alarm.vercel.app/">View</a>

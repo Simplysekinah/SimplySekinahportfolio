@@ -1,0 +1,24 @@
+@keyframes borderMove {
+    0% {
+      border-color: transparent white transparent #fac271;
+    }
+    25% {
+      border-color: #fac271 transparent transparent white;
+    }
+    50% {
+      border-color: white #fac271 transparent transparent;
+    }
+    75% {
+      border-color: transparent white #fac271 transparent;
+    }
+    100% {
+      border-color: transparent white transparent #fac271;
+    }
+  }
+  
+  .animate-border {
+    border-style: solid;
+    border-width: 4px;
+    animation: borderMove 2s linear infinite;
+  }
+  

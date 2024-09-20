@@ -240,7 +240,7 @@ body{
 
 @keyframes float-up {
   to {
-      transform: translateY(-175vh);
+      transform: translateY(-75vh);
   }
 }
 

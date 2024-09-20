@@ -9,7 +9,7 @@ const Nav = () => {
     setnav(!nav)
   }
   return (
-    <div className='flex justify-between items-center h-24 max-w-[1240px] text-white mx-auto px-4'>
+    <div className='flex justify-between items-center h-24 max-w-[1240px] text-white mx-auto px-4 relative z-20'>
 
       <video loop autoPlay muted className=' md:w-[230px] h-[300px] sm:w-[220px]'>
         <source src={logo} type="video/mp4" />
@@ -19,7 +19,8 @@ const Nav = () => {
         <li className='p-4'>About</li>
         <li className='p-4'>Experience</li>
         <li className='p-4'>Service</li>
-        <li className='p-4 bg-gradient-to-r from-[#010001] to-[#fac271] rounded-md shadow-md hover:from-[#fac271] hover:to-[#09090b] hover:shadow-lg font-semibold w-[150px] text-center'>Contact
+        <li className='p-4 bg-gradient-to-r from-[#010001] to-[#fac271] relative rounded-[50px] shadow-md hover:from-[#fac271] hover:to-[#09090b] hover:shadow-lg hover:scale-105 font-semibold w-[150px] text-center'>Contact
+        <div className="absolute inset-0 rounded-[50px] border-4 border-transparent animate-border"></div>
         </li>
       </ul>
       <div onClick={handlenav} className='block md:hidden'>
@@ -34,7 +35,8 @@ const Nav = () => {
           <li className='p-4 border-b border-gray-600'>About</li>
           <li className='p-4 border-b border-gray-600'>Experience</li>
           <li className='p-4 border-b border-gray-600'>Service</li>
-          <li className='p-4 bg-gradient-to-r from-[#09090b] to-[#fac271] rounded-md shadow-md hover:from-[#fac271] hover:to-[#09090b] hover:shadow-lg font-semibold w-[200px] text-center mt-2'>Contact
+          <li className='p-4 bg-gradient-to-r from-[#09090b] to-[#fac271] relative rounded-[50px] shadow-xl hover:from-[#fac271] hover:to-[#09090b] hover:shadow-lg font-semibold w-[150px] text-center mt-2'>Contact
+            <div className="absolute inset-0 rounded-[50px] border-4 border-transparent animate-border"></div>
           </li>
         </ul>
       </div>
